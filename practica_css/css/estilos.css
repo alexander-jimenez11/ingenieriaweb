@@ -1,0 +1,137 @@
+body {
+    background-color: #ffffff;
+}
+#cabecera {
+    height: 120px;
+    background-color: #1070be;
+}
+#sitename {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+}
+
+#cabecera img {
+    width: 8%;
+    float: left;
+}
+#menu-superior {
+    float: right;
+}
+#menu-superior ul {
+    list-style: none;
+}
+
+#menu-superior ul li {
+    display: inline-block;
+}
+
+#menu-superior ul li a {
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+#menu-superior ul li a:hover {
+    font-size: 1.2em;
+}
+.izquierda {
+    width: 30%;
+    float: left;
+}
+.derecha {
+    width: 70%;
+    float: right;
+}
+
+.noticia {
+    width: 62%; /* Establece el ancho deseado */
+    height: auto; /* Para mantener la proporción original de la imagen */
+    
+}
+
+.redes {
+    width: 50%; /* Establece el ancho deseado */
+    height: auto; /* Para mantener la proporción original de la imagen */    
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+.flex-item {
+  
+    width: 20%;
+    margin: 20px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+}
+
+.card {
+    clear: both;
+    height: 190px;
+    
+}
+.pie {
+    clear: both;
+    background-color: #545154;
+    height: 80px;
+
+}
+
+.pie h4 {
+    color: #ffffff;
+    padding-top: 30px;
+    text-align: center;
+}
+
+/*---------------------------------------------*/
+/*                 Formularios                 */
+/*---------------------------------------------*/
+main .grupoinput{
+	padding: 0.5em 4em;
+  
+}
+main .h1{
+	text-align: center;
+}
+
+.grupoinput label{
+		display: block;
+		font-size: 1em;
+ }
+.grupoinput input[type=text], .grupoinput input[type=email], .grupoinput input[type=number], .grupoinput input[type=date]{
+	width: 50%;
+	padding: 15px 20px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+
+}
+
+/*---------------------------------------------*/
+/*                   Botones                  */
+/*---------------------------------------------*/
+.button {
+    background-color: #0d0975; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 60px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 9px;
+
+  }
+  .button:hover {
+    background-color: #3680ae;
+    color: white;
+  }
